@@ -193,7 +193,7 @@ curl_close($curl);
 <?php
 
 $curl = curl_init();
-$url = "https://sweb2.com/SWEB2/projects/flight%20data%20api/flight-api.php?mode=live%20arrivals)";
+$url = "https://sweb2.com/SWEB2/projects/flight%20data%20api/flight-api.php?mode=live%20arrivals";
 
 curl_setopt_array($curl, [
     CURLOPT_URL => $url,  
