@@ -66,6 +66,155 @@ curl_close($curl);
 ?>
 ```
 
+### Response JSON
+
+```json
+[
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX011",
+    "Origin": "MNL",
+    "Destinations": "POM",
+    "Scheduled": "5:10 am PGT",
+    "Estimate": "5:15 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX393",
+    "Origin": "SIN",
+    "Destinations": "POM",
+    "Scheduled": "5:25 am PGT",
+    "Estimate": "5:30 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX7140",
+    "Origin": "POM",
+    "Destinations": "WWK",
+    "Scheduled": "6:20 am PGT",
+    "Estimate": "6:58 am PGT",
+    "Status": "ARRIVED LATE",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX275",
+    "Origin": "KVG",
+    "Destinations": "RAB",
+    "Scheduled": "6:35 am PGT",
+    "Estimate": "6:25 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX7244",
+    "Origin": "POM",
+    "Destinations": "HKN",
+    "Scheduled": "6:45 am PGT",
+    "Estimate": "6:46 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX100",
+    "Origin": "POM",
+    "Destinations": "LAE",
+    "Scheduled": "6:55 am PGT",
+    "Estimate": "6:38 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX7140",
+    "Origin": "WWK",
+    "Destinations": "VAI",
+    "Scheduled": "7:25 am PGT",
+    "Estimate": "8:21 am PGT",
+    "Status": "ARRIVED LATE",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX9607A",
+    "Origin": "MXH",
+    "Destinations": "POM",
+    "Scheduled": "7:40 am PGT",
+    "Estimate": "7:41 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX111",
+    "Origin": "MAG",
+    "Destinations": "POM",
+    "Scheduled": "7:50 am PGT",
+    "Estimate": "8:12 am PGT",
+    "Status": "ARRIVED LATE",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  },
+  {
+    "Type": "arrivals",
+    "Date": "17/06/2025",
+    "Flights": "PX091",
+    "Origin": "CNS",
+    "Destinations": "POM",
+    "Scheduled": "8:30 am PGT",
+    "Estimate": "8:45 am PGT",
+    "Status": "ARRIVED ON TIME",
+    "error_mgs": 0,
+    "response_status": 200,
+    "parametre_types": "arrivals",
+    "parametre_options": null
+  }
+]
+
+
+```
+
 ## 💡 Fetch FlightAware-API Example Code in PHP 
 
 ```php
