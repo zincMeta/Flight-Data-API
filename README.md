@@ -121,8 +121,31 @@ curl_close($curl);
     "origin": "Goroka (GKA / AYGA)",
     "depart": "05:45p +10",
     "arrive": "06:30p +10"
+  },
+  { 
+    "mode":"Live Arrivals",
+    "identity":"P2-ATZ",
+    "type":"",
+    "origin":"Near Port Moresby",
+    "depart":"03:46p +10",
+    "arrive":"04:00p +10"
+  },
+  {
+    "mode":"Live Arrivals",
+    "identity":"P2-ANU",
+    "type":"F70",
+    "origin":"Near Kundiawa",
+    "depart":"02:50p +10",
+    "arrive":"03:32p +10"
+  },
+  {
+    "mode":"Live Arrivals",
+    "identity":"P2-MCK",
+    "type":"",
+    "origin":"Near Kokoda, Papua New Guinea",
+    "depart":"03:07p +10",
+    "arrive":"03:23p +10"
   }
-  // ... more entries
 ]
 
 ```
