@@ -97,7 +97,7 @@ curl_close($curl);
 ```
 ### repsonse json
 ```json 
-<details> [
+[
   {
     "mode": "Live Arrivals",
     "identity": "P2-ATE",
@@ -125,7 +125,6 @@ curl_close($curl);
   // ... more entries
 ]
 
-</details>
 ```
 ## Parameter types & options
 
