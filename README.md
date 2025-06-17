@@ -160,15 +160,15 @@ There are two parameters **types** and **options**. The "option" parameter is op
 
 ### options
 
-`flights` : Fetch only the **flight** data from the arrival or departure flights.
+`flights` : Fetch only the **flight** data from arrival or departure flights.
 
-`destination` : Fetch only the **destination** data the from arrival or departure flights.
+`destination` : Fetch only the **destination** data from arrival or departure flights.
 
-`origin` : Fetch only the **origin** data the from arrival or departure flights.
+`origin` : Fetch only the **origin** data from arrival or departure flights.
 
-`scheduled` : Fetch only the **scheduled** data the from arrival or departure flights.
+`scheduled` : Fetch only the **scheduled** data from arrival or departure flights.
 
-`estimate` : Fetch only the **estimate** data the from arrival or departure flights.
+`estimate` : Fetch only the **estimate** data from arrival or departure flights.
 
-`status` : Fetch only the **status** data the from arrival or departure flights.
+`status` : Fetch only the **status** data from arrival or departure flights.
 
