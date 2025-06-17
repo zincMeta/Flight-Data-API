@@ -95,7 +95,8 @@ if ($err) {
 curl_close($curl);
 ?>
 ```
-#### repsonse json
+### repsonse json
+```json 
 <details> [
   {
     "mode": "Live Arrivals",
@@ -125,6 +126,7 @@ curl_close($curl);
 ]
 
 </details>
+```
 ## Parameter types & options
 
 There are two parameters **types** and **options**. The "option" parameter is optional hehe😆 unless you want to fetch a specific data from the flights data .
