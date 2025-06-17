@@ -96,8 +96,34 @@ curl_close($curl);
 ?>
 ```
 #### repsonse json
-<details> 
-[{"mode":"Live Arrivals","identity":"P2-ATE","type":"AT76","origin":"Near Kokoda, Papua New Guinea","depart":"06:53p +10","arrive":"07:16p +10"},{"mode":"Live Arrivals","identity":"P2-ATB","type":"AT76","origin":"Goroka (GKA \/ AYGA)","depart":"05:49p +10","arrive":"06:49p +10"},{"mode":"Live Arrivals","identity":"P2-ANU","type":"F70","origin":"Goroka (GKA \/ AYGA)","depart":"05:45p +10","arrive":"06:30p +10"},{"mode":"Live Arrivals","identity":"P2-PXA","type":"B738","origin":"Near Bulolo, Papua New Guinea","depart":"06:02p +10","arrive":"06:19p +10"},{"mode":"Live Arrivals","identity":"P2-ANT","type":"F70","origin":"Near Goroka","depart":"04:50p +10","arrive":"05:27p +10"},{"mode":"Live Arrivals","identity":"P2-PHU","type":"","origin":"Port Moresby\/Jackson International (POM \/ AYPY)","depart":"03:40p +10","arrive":"04:28p +10"},{"mode":"Live Arrivals","identity":"P2-ATZ","type":"","origin":"Near Port Moresby","depart":"03:46p +10","arrive":"04:00p +10"},{"mode":"Live Arrivals","identity":"P2-ANU","type":"F70","origin":"Near Kundiawa","depart":"02:50p +10","arrive":"03:32p +10"},{"mode":"Live Arrivals","identity":"P2-MCK","type":"","origin":"Near Kokoda, Papua New Guinea","depart":"03:07p +10","arrive":"03:23p +10"},{"mode":"Live Arrivals","identity":"P2-ANJ","type":"F100","origin":"Near Kokoda, Papua New Guinea","depart":"02:48p +10","arrive":"03:05p +10"},{"mode":"Live Arrivals","identity":"ANG6051","type":"B738","origin":"Jakarta-Soekarno-Hatta International (CGK)","depart":"10:24a WIB","arrive":"07:07p +10"},{"mode":"Live Arrivals","identity":"P2-ANM","type":"","origin":"Near Popondetta","depart":"06:17p +10","arrive":"06:41p +10"},{"mode":"Live Arrivals","identity":"ANG4","type":"B763","origin":"Brisbane (BNE)","depart":"03:18p AEST","arrive":"06:25p +10"},{"mode":"Live Arrivals","identity":"PXT","type":"","origin":"Near Kundiawa","depart":"05:12p +10","arrive":"05:59p +10"},{"mode":"Live Arrivals","identity":"P2-PDC","type":"","origin":"Near Port Moresby","depart":"04:54p +10","arrive":"result unknown (?)"},{"mode":"Live Arrivals","identity":"P2-PXR","type":"","origin":"Near Kundiawa","depart":"03:18p +10","arrive":"04:08p +10"},{"mode":"Live Arrivals","identity":"NCR521","type":"B744","origin":"Hong Kong International (HKG)","depart":"08:10a HKT","arrive":"03:49p +10"},{"mode":"Live Arrivals","identity":"P2-ANM","type":"","origin":"Near Mount Hagen","depart":"02:26p +10","arrive":"03:28p +10"},{"mode":"Live Arrivals","identity":"MC41","type":"C25A","origin":"Maroochydore\/Sunshine Coast (MCY \/ YBSU)","depart":"11:33a AEST","arrive":"03:11p +10"},{"mode":"Live Arrivals","identity":"P2-PXA","type":"B738","origin":"Near Bulolo, Papua New Guinea","depart":"02:39p +10","arrive":"result unknown (?)"}]
+<details> [
+  {
+    "mode": "Live Arrivals",
+    "identity": "P2-ATE",
+    "type": "AT76",
+    "origin": "Near Kokoda, Papua New Guinea",
+    "depart": "06:53p +10",
+    "arrive": "07:16p +10"
+  },
+  {
+    "mode": "Live Arrivals",
+    "identity": "P2-ATB",
+    "type": "AT76",
+    "origin": "Goroka (GKA / AYGA)",
+    "depart": "05:49p +10",
+    "arrive": "06:49p +10"
+  },
+  {
+    "mode": "Live Arrivals",
+    "identity": "P2-ANU",
+    "type": "F70",
+    "origin": "Goroka (GKA / AYGA)",
+    "depart": "05:45p +10",
+    "arrive": "06:30p +10"
+  }
+  // ... more entries
+]
+
 </details>
 ## Parameter types & options
 
