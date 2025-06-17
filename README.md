@@ -244,7 +244,7 @@ if ($err) {
 curl_close($curl);
 ?>
 ```
-### repsonse json
+### Repsonse JSON
 ```json 
 [
   {
