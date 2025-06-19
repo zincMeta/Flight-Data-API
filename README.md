@@ -270,17 +270,17 @@ curl_close($curl);
 ]
 
 ```
-## Parameter types & options
+# Parameter types & options
 
 ## FOR AIR NIUGINI API
 There are two parameters **types** and **options**. The "option" parameter is optional hehe😆 unless you want to fetch a specific data from the flights data .
 
-### types 
+#### types 
 `arrivals` : Fetch the data for the arrival flights.
 
 `departures` : Fetch the data for the departure flights.
 
-### options
+#### options
 
 `flights` : Fetch only the **flight** data from arrival or departure flights.
 
