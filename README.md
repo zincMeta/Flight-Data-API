@@ -297,3 +297,8 @@ There are two parameters **types** and **options**. The "option" parameter is op
 
 `status` : Fetch only the **status** data from arrival or departure flights.
 
+## FOR FLIGHTAWARW API
+
+### Parameter (mode, search_id & search)
+There are two parameters **mode**, **search_id** and **search** . The "search_id" and "search" parameters are optional, unless you want to fetch a specific data from the flights data .
+
