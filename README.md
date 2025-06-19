@@ -312,8 +312,8 @@ There are two parameters **mode**, **search_id** and **search** . The "search_id
 | Parameter     | Required | Description                                                                 |
 |---------------|----------|-----------------------------------------------------------------------------|
 | `mode`        | Yes      | Operation mode. Use `live arrivals` to get current arrival data.            |
-| `search_id`   | Yes      | Search filter type. Use `identity` to search by aircraft registration.      |
-| `search`      | Yes      | The search value. Example: a tail number like `P2-ANL`.                     |
+| `search_id`   | No       | Search filter type. Use `identity` to search by aircraft registration.      |
+| `search`      | No       | The search value. Example: a tail number like `P2-ANL`.                     |
 
 ### 🔧 Example Request
 
