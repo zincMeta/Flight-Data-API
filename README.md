@@ -316,11 +316,11 @@ There are two parameters **mode**, **search_id** and **search** . The "search_id
 
 ## 📥 Request Parameters
 
-| Parameter     | Required | Description                                                                 |
-|---------------|----------|-----------------------------------------------------------------------------|
-| `mode`        | Yes      | Operation mode. Use `live arrivals` to get current arrival data.            |
-| `search_id`   | No       | Search filter type. Use `identity` to search by aircraft registration.      |
-| `search`      | No       | The search value. Example: a tail number like `P2-ANL`.                     |
+| Parameter     | Required | Description                                                                                 |
+|---------------|----------|---------------------------------------------------------------------------------------------|
+| `mode`        | Yes      | Operation mode. Use `live arrivals` to get current arrival data.                            |
+| `search_id`   | No       | Search filter type. Use `identity` to search by aircraft registration.                      | 
+| `search`      | No       | The search value. Example: a tail number like `P2-ANL` it requires "search_id" parameter .  |
 
 ### 🔧 Example Request
 
