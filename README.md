@@ -302,6 +302,13 @@ There are two parameters **types** and **options**. The "option" parameter is op
 ### Parameter (mode, search_id & search)
 There are two parameters **mode**, **search_id** and **search** . The "search_id" and "search" parameters are optional, unless you want to fetch a specific data from the flights data .
 
+#### ⚠️ Notes
+`Timezone`: All times are local and include timezone offset (+10 = UTC+10).
+
+`Duplicates`: Aircraft with multiple legs may appear more than once.
+
+`Empty Fields`: Some aircraft types may not be identified in real-time and appear as empty strings.
+
 ```yaml
 
 
@@ -318,3 +325,7 @@ There are two parameters **mode**, **search_id** and **search** . The "search_id
 ### 🔧 Example Request
 
 ```
+
+Let me know if you'd like this as a downloadable file or adapted for a GitHub repository format.
+
+---
