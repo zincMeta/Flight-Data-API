@@ -1,6 +1,6 @@
 # ✈️  FlightAware-API AND Air Niugini API
 
-This project consist of to API demonstrates how to fetch live or simulated flight data. It is a public API that retrieves information such as arrival and departure flights, schedules, routes, flight origins, destinations, and flight names from **Air Niugini** and **Flight Aware**.
+This project consist of to API demonstrates how to fetch live or simulated flight data. It is a public API that retrieves information such as arrivals, departure flights, schedules, routes, flight origins, destinations, and flight names from **Air Niugini** and **Flight Aware**.
 
 ---
 
@@ -272,6 +272,7 @@ curl_close($curl);
 ```
 ## Parameter types & options
 
+## FOR AIR NIUGINI API
 There are two parameters **types** and **options**. The "option" parameter is optional hehe😆 unless you want to fetch a specific data from the flights data .
 
 ### types 
